@@ -90,14 +90,14 @@ main img {
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-@media screen and (min-width: 0px) and (max-width: 768px) {
+@media screen and (min-width: 0px) and (max-width: 1036px) {
     main {
         max-width: 375px;
         flex-direction: column;
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1440px) {
+@media screen and (min-width: 1036px) and (max-width: 1440px) {
     main {
         width: 50%;
         height: auto;
