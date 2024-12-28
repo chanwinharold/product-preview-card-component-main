@@ -24,12 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/desktop-preview.jpg)
+![Screenshot](./design/desktop-preview.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://github.com/chanwinharold/product-preview-card-component-main/)
+- Live Site URL: [live site URL](https://product-preview-card-component-main-two-gamma.vercel.app/)
 
 ## My process
 
@@ -66,4 +66,4 @@ Users should be able to:
 ```
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/chanwinharold)
+- Frontend Mentor - [@chanwinharold](https://www.frontendmentor.io/profile/chanwinharold)
