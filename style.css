@@ -4,27 +4,22 @@
 * { margin: 0; }
 
 body {
-    font-size: 14px;
-    font-family: Montserrat, sans-serif;
-    background-color: #F3EAE3;
-
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 5em;
+    align-items: center;
+
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+    background-color: #F3EAE3;
 }
 
 main {
-    margin: 2em auto auto;
-    border-radius: 10px;
     background-color: #FFFFFF;
-
+    border-radius: 10px;
+    margin: 30px;
     display: flex;
-    flex-direction: column;
-}
-main img {
-    width: 100%;
-    border-radius: 10px 10px 0 0;
 }
 
 .main-content {
@@ -33,11 +28,11 @@ main img {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 2em;
+    gap: 1em;
 }
 .main-content h1 {
     font-family: Fraunces, sans-serif;
-    font-size: 2.5em;
+    font-size: 2.1em;
     font-weight: 700;
 }
 .main-content strong {
@@ -50,11 +45,11 @@ main img {
     width: 95%;
     height: 50px;
     margin: auto;
+    border-radius: 5px;
     background-color: rgba(2, 81, 50, 0.8);
     color: white;
     font-weight: 700;
     text-decoration: none;
-    border-radius: 10px;
 
     display: flex;
     justify-content: center;
@@ -64,17 +59,18 @@ main img {
 .main-content a:hover {
     background-color: rgba(2, 81, 50, 1);
 }
-.main-content a img {
+
+.second-img {
     width: 20px;
-    height: auto;
 }
 
 .first-paragraph {
     text-transform: uppercase;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.25em;
 }
 .third-paragraph {
     display: flex;
+    flex-flow: row wrap;
     align-items: center;
     gap: 2em;
 }
@@ -90,21 +86,24 @@ main img {
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-@media screen and (min-width: 0px) and (max-width: 1036px) {
+@media screen and (max-width: 768px) {
     main {
-        max-width: 375px;
+        max-width: 300px;
         flex-direction: column;
+    }
+    .first-img {
+        max-width: 300px;
+        border-radius: 10px 10px 0 0;
     }
 }
 
-@media screen and (min-width: 1036px) and (max-width: 1440px) {
+@media screen and (min-width: 768px) {
     main {
-        width: 50%;
-        height: auto;
+        max-width: 600px;
         flex-direction: row;
     }
-    main img {
-        width: 50%;
+    .first-img {
+        min-width: 300px;
         border-radius: 10px 0 0 10px;
     }
 }
